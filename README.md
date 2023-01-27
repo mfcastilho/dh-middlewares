@@ -47,7 +47,7 @@ acessar. O que deverá ser visto assim:
 administradores à rota localhost:3000/admin, apenas aqueles que estão na lista de
 usuários: Ada, Greta, Vim ou Tim.
 
-Quer dizer que só permitiremos o acesso se o texto enviado nal queryString como user
+Quer dizer que só permitiremos o acesso se o texto enviado na queryString como user
 pertencer aos usuários autorizados. Por exemplo, se enviamos o seguinte:
 - localhost:3000/admin?user=Ada
 permitiremos o acesso e será enviada, como resposta, a seguinte mensagem:
