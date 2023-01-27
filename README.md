@@ -23,13 +23,13 @@ login em qualquer rota no sistema. Portanto, dentro da aplicação devemos criar
 arquivo de texto chamado userLogs.txt. Este arquivo deve estar localizado em uma
 pasta chamada logs e dentro dele devemos registrar o acesso a qualquer rota do
 sistema. Cada registro deve ter este aspecto:
-● O usuário acessou a rota: ______
-Para isso será necessário que tenhamos uma pasta denominada middlewares e, dentro
+- O usuário acessou a rota: ______
+- Para isso será necessário que tenhamos uma pasta denominada middlewares e, dentro
 dela, um middleware chamado: userLogs.js.
-Este middleware será usado em toda a aplicação, portanto deveremos implementá- lo
+- Este middleware será usado em toda a aplicação, portanto deveremos implementá- lo
 corretamente. Também podemos criar as rotas que consideramos necessárias para testar
 o middleware.
-Importante: o arquivo userLogs.txt deverá armazenar TODAS as rotas que o usuário
+- Importante: o arquivo userLogs.txt deverá armazenar TODAS as rotas que o usuário
 acessar. O que deverá ser visto assim:
 - O usuário acessou a rota: /services
 - O usuário acessou a rota: /services/design
