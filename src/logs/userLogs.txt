@@ -1,0 +1,3 @@
+O usuário acessou a rota:/
+O usuário acessou a rota:/register
+O usuário acessou a rota:/login
