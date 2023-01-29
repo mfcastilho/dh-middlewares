@@ -43,7 +43,7 @@ acessar. O que deverá ser visto assim:
 
 
 
-- [ ] Implementar um middleware que nos permita autorizar o acesso de usuários
+- [X] Implementar um middleware que nos permita autorizar o acesso de usuários
 administradores à rota localhost:3000/admin, apenas aqueles que estão na lista de
 usuários: Ada, Greta, Vim ou Tim.
 
