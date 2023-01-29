@@ -9,6 +9,9 @@ const HomeController = {
   },
   showLogin:(req, res)=>{
     res.send("Página de Login!");
+  },
+  showAdminPage:(req, res)=>{
+    res.send(`Olá Admin: ${req.query.user}`);
   }
 }
 
